@@ -7,18 +7,21 @@
 
 <p align="center">一款简单高效的前后端分离的权限管理系统。</p>
 
-
-> [!Warning]
-> 该项目将不再维护，后续使用 Prisma 替换 Typeorm ，并从 Vben 迁移至 Ant Design Pro。
->
-> 
 ### 说明
 
-使用 Vben Admin + NestJs 等技术栈，并采用 monorepo 管理项目，希望这个项目在 typescript 全栈的路上能够帮助到你。
+##### 后端
 
-[在线预览](https://admin.hokkaii.cn) 演示账号: admin/a123456
+NestJs
 
-安装
+##### 前端
+
+Vue + Vben Admin
+
+##### 管理工具
+
+Monorepo
+
+#### 安装
 
 ```bash
 git clone https://github.com/hokkaii/nest-vben-admin
@@ -27,7 +30,7 @@ cd nest-vben-admin
 pnpm install
 ```
 
-**运行**
+#### 运行
 
 ```bash
 pnpm run dev
@@ -37,23 +40,22 @@ pnpm run dev
 
 后端接口: http://localhost:5001/api
 
-**打包**
+#### 打包
 
 ```bash
 pnpm build
 ```
 
-### 功能
+#### 功能
 
-- [x] 用户管理
-- [x] 角色管理
 - [x] 菜单管理
 - [x] 部门管理
+- [x] 用户管理
+- [x] 角色管理
 - [x] 文件上传
 - [x] 定时任务
 - [x] 邮件工具
 - [x] 系统监控
-- [x] 在线用户
 
 ### LICENSE
 
